@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect all non-existing files and folders to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php [L]
+
+# Optional: Make welcome.php as default landing page
+DirectoryIndex welcome.php

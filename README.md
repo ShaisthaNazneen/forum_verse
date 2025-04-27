@@ -32,4 +32,4 @@ This is a simple forum application built with **PHP**, **MySQL**, **HTML**, **CS
    If you haven't cloned the repository yet, you can do so using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/forum.git
+   git clone https://github.com/ShaisthaNazneen/forum_verse.git
